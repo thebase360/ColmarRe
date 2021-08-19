@@ -1,0 +1,38 @@
+.topnav-right a{
+    display: flex;
+    float: right;
+    text-align: center;
+    padding: 8px;
+    padding-top: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+#signin{
+    padding-right: 16px;;
+}
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    height: 64px;
+    
+}
+.topnav img{
+    display: flex;
+    float: left;
+    padding-top: 16px;
+    height: auto;
+    padding-left: 24px;
+    margin: 0px;
+}
+#colmar{
+    color:rgb(54, 54, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topnav h3{
+    color:rgb(177, 177, 177);
+    display: flex;
+    float: left;
+    font-size: 32px;
+    line-height: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
