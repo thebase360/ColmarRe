@@ -38,21 +38,18 @@
 }
 .container{
     display:flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow:hidden;
 }
 #banner{
     background-color: rgb(187, 187, 187);
 }
-.container img{
-    width: 60%;
-    float: left;
-    padding: 32px 24px;
-}
-.bannercontent{
+#bannercontent{
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
-.bannercontent p{
+#bannercontent p{
     position: relative;
     top: 15%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -64,7 +61,7 @@
     font-size: 48px;
     font-weight: 900;
 }
-.bannercontent button{
+#bannercontent button{
     position: relative;
     color:white;
     top: 20%;
@@ -78,4 +75,73 @@
     font-size: 16px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 270px;
+}
+.container img{
+    float: left;
+    padding: 32px 24px;
+    width: 60%;
+    height: auto;
+}
+#qoute{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 32px;
+    font-size: 18px;
+    color:rgb(121, 118, 118);
+    width: 60%;
+    word-wrap: break-word;
+}
+.orientation img{
+    width:  60%;
+}
+#practice{
+    font-size: 45px;
+    text-align: left;
+    color:rgb(54, 54, 54);
+    padding-bottom: 24px;
+}
+.practice{
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-right: 16px;
+    display: block;
+    padding-bottom: 32px;
+}
+.practice img{
+    width: 60%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+#information-img{
+    height: auto;
+    width: 35%;
+}
+#inform-column{
+    padding-top: 16px;
+    padding-left: 16px;
+    color:rgb(121, 118, 118);
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 16px;
+}
+#inform-title{
+    text-align: center;
+    color:rgb(54, 54, 54);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+#inform-info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.lecture{
+    background: rgb(187, 187, 187);
 }
