@@ -82,6 +82,9 @@
     width: 60%;
     height: auto;
 }
+.wrapper-information{
+    background-color: rgb(243, 243, 243);
+}
 #qoute{
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 32px;
@@ -144,4 +147,38 @@
 }
 .lecture{
     background: rgb(187, 187, 187);
+}
+#start-learning{
+    text-align: center;
+    padding-top: 32px;
+    font-size: 45px;
+    color:rgb(54, 54, 54);
+}
+.wrapper-courses{
+    background-color: rgb(219, 219, 219);
+}
+.wrapper-courses img{
+    height: auto;
+    width: 100%;
+}
+.wrapper-courses .row{
+    display: flex;
+    padding: 16px 75px;
+}
+.wrapper-courses .column{
+    background-color: white;
+    text-align: left;
+}
+#course-title{
+    color:rgb(54, 54, 54);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    padding-left: 16px;
+}
+#course-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 150, 150);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
 }
